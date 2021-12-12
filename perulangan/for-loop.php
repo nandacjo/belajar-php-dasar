@@ -45,3 +45,12 @@ for ($counter = 1; $counter <= 5; $counter++) {
 for ($counter = 1; $counter <= 5; $counter++) :
   echo "Hello For Love : " . $counter . PHP_EOL;
 endfor;
+
+
+for ($i = 0; $i <= 10; $i++) {
+  if ($i % 2 != 0) {
+    continue;
+  }
+
+  echo $i . PHP_EOL;
+}

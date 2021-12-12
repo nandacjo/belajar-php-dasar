@@ -13,6 +13,11 @@ echo $age;
 $nama = "Nanda";
 $$nama = "Kren";
 
+$hallo = "dunia";
+$a = "hallo";
+
+echo $$a;
+
 echo "\n";
 
 echo "Nama = ";
